@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func Hi(name string) string {
-	return fmt.Sprintf("Hi, %s !~", name)
+func Hi(name, lang string) string {
+	return fmt.Sprintf("Hi, %s !~  %s~ ", name, lang)
 } 
